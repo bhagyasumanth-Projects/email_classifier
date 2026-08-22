@@ -1,0 +1,44 @@
+[
+  {
+    "email_id": "EMAIL-001",
+    "to": "billing@vertexsupplies.com",
+    "subject": "Re: Invoice #INV-4471 for October Services",
+    "body": "Hi,\n\nThank you for submitting invoice INV-4471. We have logged it into our accounts payable system for amount $4,250.00. It will be processed per standard payment terms and you will be notified upon completion.\n\nBest regards,\nAP Automation",
+    "drafted_at": "2026-08-22T10:11:02.581451+00:00"
+  },
+  {
+    "email_id": "EMAIL-002",
+    "to": "ops@northwind-traders.com",
+    "subject": "Re: Status of payment for INV-3390",
+    "body": "Hi,\n\nThanks for reaching out about INV-3390.\nCurrent status: Scheduled.\nExpected payment date: 2026-08-28.\n\nLet us know if you have further questions.\n\nBest regards,\nAP Automation",
+    "drafted_at": "2026-08-22T10:11:02.583223+00:00"
+  },
+  {
+    "email_id": "EMAIL-003",
+    "to": "accounts@brightline-media.com",
+    "subject": "Re: Disputing charge on Invoice INV-2210",
+    "body": "Hi,\n\nThank you for flagging this. We've escalated the dispute on INV-2210 to our finance team for review (priority: normal). Someone will follow up with you directly within 2 business days.\n\nBest regards,\nAP Automation",
+    "drafted_at": "2026-08-22T10:11:02.588814+00:00"
+  },
+  {
+    "email_id": "EMAIL-005",
+    "to": "finance@keystone-logistics.com",
+    "subject": "Re: Invoice attached - PO 88213",
+    "body": "Hi,\n\nThank you for submitting invoice UNKNOWN. We have logged it into our accounts payable system for amount $2,150.00. It will be processed per standard payment terms and you will be notified upon completion.\n\nBest regards,\nAP Automation",
+    "drafted_at": "2026-08-22T10:11:02.591991+00:00"
+  },
+  {
+    "email_id": "EMAIL-008",
+    "to": "support@cloudsync-tools.com",
+    "subject": "Re: Your subscription invoice is ready",
+    "body": "Hi,\n\nThank you for submitting invoice UNKNOWN. We have logged it into our accounts payable system for amount $49.00. It will be processed per standard payment terms and you will be notified upon completion.\n\nBest regards,\nAP Automation",
+    "drafted_at": "2026-08-22T10:11:02.597675+00:00"
+  },
+  {
+    "email_id": "EMAIL-009",
+    "to": "legal@summit-partners.com",
+    "subject": "Re: URGENT: Overcharge dispute - Invoice INV-1187 - escalating to legal",
+    "body": "Hi,\n\nThank you for flagging this. We've escalated the dispute on INV-1187 to our finance team for review (priority: high). Someone will follow up with you directly within 2 business days.\n\nBest regards,\nAP Automation",
+    "drafted_at": "2026-08-22T10:11:02.601754+00:00"
+  }
+]

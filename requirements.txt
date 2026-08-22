@@ -1,0 +1,7 @@
+# No external dependencies required for the default (rule-based) mode.
+# Standard library only: json, os, re, dataclasses, datetime.
+#
+# If you wire up the optional LLM classification path in src/classifier.py,
+# add whichever SDK you use, e.g.:
+# anthropic>=0.40.0
+# google-genai>=0.3.0

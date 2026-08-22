@@ -1,0 +1,62 @@
+[
+  {
+    "id": "EMAIL-001",
+    "from": "billing@vertexsupplies.com",
+    "subject": "Invoice #INV-4471 for October Services",
+    "body": "Hi team, please find attached invoice INV-4471 for the consulting services delivered in October, totaling $4,250.00. Payment terms are Net 30. Let us know if you need any supporting documents. Thanks, Vertex Supplies Accounts."
+  },
+  {
+    "id": "EMAIL-002",
+    "from": "ops@northwind-traders.com",
+    "subject": "Status of payment for INV-3390",
+    "body": "Hello, we submitted invoice INV-3390 three weeks ago and haven't seen the payment reflect in our account yet. Could you confirm the expected payment date? We'd appreciate an update at your earliest convenience."
+  },
+  {
+    "id": "EMAIL-003",
+    "from": "accounts@brightline-media.com",
+    "subject": "Disputing charge on Invoice INV-2210",
+    "body": "We are writing to formally dispute the amount charged on Invoice INV-2210. The invoice states $8,900 but our agreed contract rate was $7,200. This is a significant discrepancy and we need this corrected before we can process payment. Please escalate this to your finance team."
+  },
+  {
+    "id": "EMAIL-004",
+    "from": "winner-notify@lucky-rewards-prize.biz",
+    "subject": "YOU HAVE WON $1,000,000!!! CLAIM NOW",
+    "body": "CONGRATULATIONS! Your email has been selected to receive a cash prize of $1,000,000 USD. Click here immediately to claim your reward before it expires. Send your bank details to process the transfer today!!!"
+  },
+  {
+    "id": "EMAIL-005",
+    "from": "finance@keystone-logistics.com",
+    "subject": "Invoice attached - PO 88213",
+    "body": "Attached is our invoice for PO 88213 covering freight services rendered last month. Amount due: $2,150.00, due within 15 days. Please process at your earliest convenience and confirm receipt."
+  },
+  {
+    "id": "EMAIL-006",
+    "from": "j.martins@personalmail.com",
+    "subject": "quick question",
+    "body": "hey, wanted to check in on that thing we talked about last time we spoke. any updates? let me know when you get a chance"
+  },
+  {
+    "id": "EMAIL-007",
+    "from": "procurement@delta-manufacturing.com",
+    "subject": "Re: Invoice INV-5502 - incorrect PO number, please advise",
+    "body": "We received invoice INV-5502 but it references the wrong PO number (should be PO-9012, not PO-9021). We also want to confirm the payment hasn't gone out yet since the invoice needs correcting first. Can you clarify the current status and reissue?"
+  },
+  {
+    "id": "EMAIL-008",
+    "from": "support@cloudsync-tools.com",
+    "subject": "Your subscription invoice is ready",
+    "body": "This is an automated notice: your CloudSync Tools subscription invoice #CS-99213 for $49.00 has been generated and is available in your billing portal. No action is required if you're on auto-pay."
+  },
+  {
+    "id": "EMAIL-009",
+    "from": "legal@summit-partners.com",
+    "subject": "URGENT: Overcharge dispute - Invoice INV-1187 - escalating to legal",
+    "body": "This is our third email regarding the overcharge on Invoice INV-1187. We were billed for services never rendered, totaling $12,400. If this is not resolved within 5 business days we will escalate this matter formally and involve our legal counsel."
+  },
+  {
+    "id": "EMAIL-010",
+    "from": "promo@dealsdaily-shop.net",
+    "subject": "50% OFF everything this weekend only!",
+    "body": "Don't miss out! Our biggest sale of the year is happening now. Shop electronics, home goods, and more at half price. Unsubscribe anytime."
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "email_id": "EMAIL-003",
+    "type": "dispute_escalation",
+    "invoice_id": "INV-2210",
+    "assigned_to": "finance_team",
+    "priority": "normal",
+    "summary": "Disputing charge on Invoice INV-2210",
+    "created_at": "2026-08-22T10:11:02.587590+00:00"
+  },
+  {
+    "email_id": "EMAIL-006",
+    "type": "human_review",
+    "from": "j.martins@personalmail.com",
+    "subject": "quick question",
+    "reason": "Top intent 'payment_query' only matched a single weak signal (raw score 2, matched: ['any updates']). Too little evidence to act autonomously even though it 'won' by ranking -- routed to human review.",
+    "created_at": "2026-08-22T10:11:02.593355+00:00"
+  },
+  {
+    "email_id": "EMAIL-007",
+    "type": "human_review",
+    "from": "procurement@delta-manufacturing.com",
+    "subject": "Re: Invoice INV-5502 - incorrect PO number, please advise",
+    "reason": "Top intent 'invoice_submission' scored 0.36 vs runner-up 'dispute' at 0.36 -- margin too small / confidence too low to act autonomously. Routed to human review instead of guessing.",
+    "created_at": "2026-08-22T10:11:02.594687+00:00"
+  },
+  {
+    "email_id": "EMAIL-009",
+    "type": "dispute_escalation",
+    "invoice_id": "INV-1187",
+    "assigned_to": "finance_team",
+    "priority": "high",
+    "summary": "URGENT: Overcharge dispute - Invoice INV-1187 - escalating to legal",
+    "created_at": "2026-08-22T10:11:02.600582+00:00"
+  }
+]

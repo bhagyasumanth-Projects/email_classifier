@@ -1,0 +1,172 @@
+[
+  {
+    "email_id": "EMAIL-001",
+    "from": "billing@vertexsupplies.com",
+    "subject": "Invoice #INV-4471 for October Services",
+    "timestamp": "2026-08-22T10:11:02.582722+00:00",
+    "classified_intent": "invoice_submission",
+    "confidence": 1.0,
+    "intent_scores": {
+      "invoice_submission": 1.0,
+      "payment_query": 0.0,
+      "dispute": 0.0,
+      "spam": 0.0
+    },
+    "classification_reasoning": "Classified as 'invoice_submission' (confidence 1.00) based on matched signals: ['invoice', 'please find attached invoice', 'payment terms', 'net 30', 'billing'].",
+    "action_taken": "logged_invoice_and_drafted_acknowledgement",
+    "action_details": "Invoice INV-4471 ($4,250.00) recorded in invoice_ledger.json; acknowledgement reply drafted to billing@vertexsupplies.com."
+  },
+  {
+    "email_id": "EMAIL-002",
+    "from": "ops@northwind-traders.com",
+    "subject": "Status of payment for INV-3390",
+    "timestamp": "2026-08-22T10:11:02.586569+00:00",
+    "classified_intent": "payment_query",
+    "confidence": 0.812,
+    "intent_scores": {
+      "invoice_submission": 0.188,
+      "payment_query": 0.812,
+      "dispute": 0.0,
+      "spam": 0.0
+    },
+    "classification_reasoning": "Classified as 'payment_query' (confidence 0.81) based on matched signals: ['status of payment', \"haven't seen the payment\", 'expected payment date'].",
+    "action_taken": "looked_up_status_and_drafted_reply",
+    "action_details": "Queried payment status for INV-3390 (Scheduled); reply drafted to ops@northwind-traders.com."
+  },
+  {
+    "email_id": "EMAIL-003",
+    "from": "accounts@brightline-media.com",
+    "subject": "Disputing charge on Invoice INV-2210",
+    "timestamp": "2026-08-22T10:11:02.590678+00:00",
+    "classified_intent": "dispute",
+    "confidence": 0.87,
+    "intent_scores": {
+      "invoice_submission": 0.13,
+      "payment_query": 0.0,
+      "dispute": 0.87,
+      "spam": 0.0
+    },
+    "classification_reasoning": "Classified as 'dispute' (confidence 0.87) based on matched signals: ['dispute', 'disputing', 'discrepancy', 'escalate', 'formally', 'corrected'].",
+    "action_taken": "created_escalation_task_and_drafted_holding_reply",
+    "action_details": "Dispute on INV-2210 escalated to finance_team (priority=normal); holding reply drafted to accounts@brightline-media.com."
+  },
+  {
+    "email_id": "EMAIL-004",
+    "from": "winner-notify@lucky-rewards-prize.biz",
+    "subject": "YOU HAVE WON $1,000,000!!! CLAIM NOW",
+    "timestamp": "2026-08-22T10:11:02.591000+00:00",
+    "classified_intent": "spam",
+    "confidence": 1.0,
+    "intent_scores": {
+      "invoice_submission": 0.0,
+      "payment_query": 0.0,
+      "dispute": 0.0,
+      "spam": 1.0
+    },
+    "classification_reasoning": "Classified as 'spam' (confidence 1.00) based on matched signals: ['congratulations', 'you have won', 'claim now', 'click here', 'cash prize', 'send your bank details', '!!!'].",
+    "action_taken": "quarantined_no_reply",
+    "action_details": "Sender winner-notify@lucky-rewards-prize.biz flagged as spam; no reply sent, email excluded from ledgers/tasks."
+  },
+  {
+    "email_id": "EMAIL-005",
+    "from": "finance@keystone-logistics.com",
+    "subject": "Invoice attached - PO 88213",
+    "timestamp": "2026-08-22T10:11:02.593085+00:00",
+    "classified_intent": "invoice_submission",
+    "confidence": 0.909,
+    "intent_scores": {
+      "invoice_submission": 0.909,
+      "payment_query": 0.091,
+      "dispute": 0.0,
+      "spam": 0.0
+    },
+    "classification_reasoning": "Classified as 'invoice_submission' (confidence 0.91) based on matched signals: ['invoice', 'invoice attached', 'amount due', 'po'].",
+    "action_taken": "logged_invoice_and_drafted_acknowledgement",
+    "action_details": "Invoice UNKNOWN ($2,150.00) recorded in invoice_ledger.json; acknowledgement reply drafted to finance@keystone-logistics.com."
+  },
+  {
+    "email_id": "EMAIL-006",
+    "from": "j.martins@personalmail.com",
+    "subject": "quick question",
+    "timestamp": "2026-08-22T10:11:02.594360+00:00",
+    "classified_intent": "needs_review",
+    "confidence": 1.0,
+    "intent_scores": {
+      "invoice_submission": 0.0,
+      "payment_query": 1.0,
+      "dispute": 0.0,
+      "spam": 0.0
+    },
+    "classification_reasoning": "Top intent 'payment_query' only matched a single weak signal (raw score 2, matched: ['any updates']). Too little evidence to act autonomously even though it 'won' by ranking -- routed to human review.",
+    "action_taken": "flagged_for_human_review",
+    "action_details": "Ambiguous intent -- created human-review task instead of guessing. Reason: Top intent 'payment_query' only matched a single weak signal (raw score 2, matched: ['any updates']). Too little evidence to act autonomously even though it 'won' by ranking -- routed to human review."
+  },
+  {
+    "email_id": "EMAIL-007",
+    "from": "procurement@delta-manufacturing.com",
+    "subject": "Re: Invoice INV-5502 - incorrect PO number, please advise",
+    "timestamp": "2026-08-22T10:11:02.595738+00:00",
+    "classified_intent": "needs_review",
+    "confidence": 0.364,
+    "intent_scores": {
+      "invoice_submission": 0.364,
+      "payment_query": 0.273,
+      "dispute": 0.364,
+      "spam": 0.0
+    },
+    "classification_reasoning": "Top intent 'invoice_submission' scored 0.36 vs runner-up 'dispute' at 0.36 -- margin too small / confidence too low to act autonomously. Routed to human review instead of guessing.",
+    "action_taken": "flagged_for_human_review",
+    "action_details": "Ambiguous intent -- created human-review task instead of guessing. Reason: Top intent 'invoice_submission' scored 0.36 vs runner-up 'dispute' at 0.36 -- margin too small / confidence too low to act autonomously. Routed to human review instead of guessing."
+  },
+  {
+    "email_id": "EMAIL-008",
+    "from": "support@cloudsync-tools.com",
+    "subject": "Your subscription invoice is ready",
+    "timestamp": "2026-08-22T10:11:02.599759+00:00",
+    "classified_intent": "invoice_submission",
+    "confidence": 1.0,
+    "intent_scores": {
+      "invoice_submission": 1.0,
+      "payment_query": 0.0,
+      "dispute": 0.0,
+      "spam": 0.0
+    },
+    "classification_reasoning": "Classified as 'invoice_submission' (confidence 1.00) based on matched signals: ['invoice', 'billing', 'subscription invoice', 'generated'].",
+    "action_taken": "logged_invoice_and_drafted_acknowledgement",
+    "action_details": "Invoice UNKNOWN ($49.00) recorded in invoice_ledger.json; acknowledgement reply drafted to support@cloudsync-tools.com."
+  },
+  {
+    "email_id": "EMAIL-009",
+    "from": "legal@summit-partners.com",
+    "subject": "URGENT: Overcharge dispute - Invoice INV-1187 - escalating to legal",
+    "timestamp": "2026-08-22T10:11:02.603013+00:00",
+    "classified_intent": "dispute",
+    "confidence": 0.875,
+    "intent_scores": {
+      "invoice_submission": 0.125,
+      "payment_query": 0.0,
+      "dispute": 0.875,
+      "spam": 0.0
+    },
+    "classification_reasoning": "Classified as 'dispute' (confidence 0.88) based on matched signals: ['dispute', 'overcharge', 'escalate', 'legal counsel', 'formally', 'never rendered'].",
+    "action_taken": "created_escalation_task_and_drafted_holding_reply",
+    "action_details": "Dispute on INV-1187 escalated to finance_team (priority=high); holding reply drafted to legal@summit-partners.com."
+  },
+  {
+    "email_id": "EMAIL-010",
+    "from": "promo@dealsdaily-shop.net",
+    "subject": "50% OFF everything this weekend only!",
+    "timestamp": "2026-08-22T10:11:02.603495+00:00",
+    "classified_intent": "spam",
+    "confidence": 1.0,
+    "intent_scores": {
+      "invoice_submission": 0.0,
+      "payment_query": 0.0,
+      "dispute": 0.0,
+      "spam": 1.0
+    },
+    "classification_reasoning": "Classified as 'spam' (confidence 1.00) based on matched signals: ['unsubscribe', '% off', 'biggest sale'].",
+    "action_taken": "quarantined_no_reply",
+    "action_details": "Sender promo@dealsdaily-shop.net flagged as spam; no reply sent, email excluded from ledgers/tasks."
+  }
+]
